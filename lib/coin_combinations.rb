@@ -1,11 +1,19 @@
 
-  public def coin_counter(number)
+public def coin_counter(cents)
     quarters = 0
-    while number >= 25 do
-      number = number - 25
-      quarters = quarters += 1
+    dimes = 0
+    cents = cents.to_i
 
-    end
-  quarters
+    if cents >= 25
+      quarters = cents / 25
+      cents = cents % 25
+
+    elsif cents >= 10
+      dimes = cents / 10
+      cents = cents % 10
+    else
 
   end
+  array = [quarters, dimes]
+end
+#puts "hi how are you today"
