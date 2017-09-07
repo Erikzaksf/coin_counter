@@ -10,18 +10,27 @@ public def coin_counter(cents)
       quarters = cents / 25
       cents = cents % 25
 
-    elsif cents >= 10
+    if cents >= 10
       dimes = cents / 10
       cents = cents % 10
+    end
 
-    elsif cents >= 5
+    if cents >= 5
       nickels = cents / 5
       cents = cents % 5
+    end
 
-    elsif cents >= 1
+    if cents >= 1
       pennies = cents / 1
       cents = cents % 1
+    end
   end
-  array = [quarters, dimes, nickels, pennies]
+  # array = [quarters, dimes, nickels, pennies]
+  puts "quarters #{quarters}"
+  puts "dimes #{dimes}"
+  puts "nickels #{nickels}"
+  puts "pennies #{pennies}"
 end
-#puts "hi how are you today"
+puts "enter amount less than a dollar"
+amount = gets.chomp
+coin_counter(amount)

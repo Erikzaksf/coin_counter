@@ -15,27 +15,20 @@ Program will allow users to enter an amount in cents and program will return wit
 ## Specifications
 
 * Program will return the least amount of coins for amount entered in cents
-  * Example input: 1 cent
-  * Example output: a penny
+  * Example input: 25 cents
+  * Example output: 1 quarter
+
+* Program will return the least amount of coins for amount entered in cents
+  * Example input: 10 cents
+  * Example output: 1 dime
+
+* Program will return the least amount of coins for amount entered in cents
+  * Example input: 5 cents
+  * Example output: a dime
 
 * Program will return the least amount of coins for amount entered in cents
   * Example input: 1 cent
   * Example output: a penny
-
-* Program will return the least amount of coins for amount entered in cents
-  * Example input: 1 cent
-  * Example output: a penny
-
-* Program will return the least amount of coins for amount entered in cents
-  * Example input: 1 cent
-  * Example output: a penny
-
-
-
-
-
-
-
 
 ## Support and contact details
   _Contact Linda Luu, Erik Zakrzewski with questions or issues._
